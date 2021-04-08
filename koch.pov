@@ -27,8 +27,14 @@ plane {
     pigment {color rgb<1,1,1>} 
     finish { ambient 0.25 diffuse 0}
 }
+             
+///////////////////////////////
+// Variables
+///////////////////////////////
 
-#declare tlength=30;
+// Triangle length
+#declare tlength=20;
+
 #declare ytranslate=tlength/(2*sqrt(3));
 
 #declare triangleBase=
